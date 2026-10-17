@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görevler</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="card">
+        <header class="header">
+          <p class="eyebrow">Günlük liste</p>
+          <h1>Görevler</h1>
+          <p class="subtitle">Yapılacaklarınızı ekleyin, tamamlayın ve düzenleyin.</p>
+        </header>
+
+        <form id="todo-form" class="todo-form" novalidate>
+          <label class="sr-only" for="todo-input">Yeni görev</label>
+          <input
+            id="todo-input"
+            type="text"
+            placeholder="Yeni görev yazın"
+            maxlength="200"
+            autocomplete="off"
+          />
+          <button type="submit">Ekle</button>
+        </form>
+        <p id="form-error" class="form-error" role="alert" hidden>
+          Görev boş olamaz.
+        </p>
+
+        <div id="summary" class="summary" hidden>
+          <p id="todo-count" class="count" aria-live="polite"></p>
+          <div class="progress" aria-hidden="true">
+            <span id="progress-bar"></span>
+          </div>
+        </div>
+        <ul id="todo-list" class="todo-list"></ul>
+        <p id="empty-state" class="empty-state" hidden>
+          Henüz görev yok. Yukarıdan yeni bir görev ekleyin.
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+---
+description: To-Do uygulaması proje kuralları
+alwaysApply: true
+---
+- Yalnızca HTML, CSS ve JavaScript kullan.
+- Backend, API veya veritabanı oluşturma.
+- Harici paket ve framework kullanma.
+- Kullanıcı arayüzü Türkçe olsun.
+- Sade, profesyonel ve responsive tasarım kullan.
+- JavaScript değişken ve fonksiyon isimleri İngilizce olsun.
+- Kullanıcı girdilerini güvenli şekilde işle.
+- Mevcut çalışan özellikleri bozma.
+- Yalnızca ilgili dosyaları değiştir.
+- Yapılan değişiklikleri kısaca açıkla.
+Klasör yolu: todo-app/.cursor/rules/project.mdc. Bu dosya sıradan bir sohbet promptu değil, kalıcı proje kurallarını
+tanımlar.
